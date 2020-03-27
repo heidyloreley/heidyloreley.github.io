@@ -1,0 +1,59 @@
+body{
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #333333;
+}
+
+h1{
+    color: #eee;
+    font-size: 28px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 0;
+    text-align: center;
+}
+h2{
+    font-size: 24px;
+}
+/*in main is defined that "container" is a Class*/
+.container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#main-bio,
+#contact-info,
+#bio-image{
+    float: left;
+}
+#bio-image{
+    width: 200px;
+    margin-right: 20px;
+}
+#bio-name{
+    position: absolute;
+    top: 150px;
+    left:30px; /*su posición depende de la posición de la Sección en la cual esta contenida, al ser ABSOLUTE y depender de su ANCESTOR*/
+}
+#main-bio{
+    width: 70%;
+}
+/*  nos lo saltamos porque no existe content-info en el main
+#content-info{
+    width: 30%;
+    height: 1.5;
+} */
+
+a{
+    color: #d21034;
+}
+
+#figure{
+    position: relative;
+}
